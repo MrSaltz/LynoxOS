@@ -48,7 +48,7 @@ um exemplo concreto).
 
 ## Sem complexidade especulativa
 
-Uma regra recorrente, referenciada ao longo do changelog como "nenhuma
+Uma regra recorrente, dita ao longo de todo o projeto como "nenhuma
 feature é adicionada porque seria legal": toda abstração nova precisa de
 um consumidor concreto ou uma necessidade arquitetural real NO MOMENTO EM
 QUE É CONSTRUÍDA, não uma hipotética futura. Quando uma escolha de design
@@ -77,11 +77,11 @@ trade-off acontecendo de verdade.
 
 Bugs encontrados durante verificação — inclusive os que acabaram sendo
 regressões auto-infligidas introduzidas mais cedo na mesma sessão — são
-registrados no changelog e nos documentos de arquitetura como achados
-reais, com o que causou eles e como foram corrigidos, em vez de
-silenciosamente corrigidos e deixados sem documentação. O changelog é
-escrito pra ser lido como um relato honesto do que de fato aconteceu, não
-uma lista de features polida depois do fato.
+registrados nos documentos de arquitetura como achados reais, com o que
+causou eles e como foram corrigidos, em vez de silenciosamente corrigidos
+e deixados sem documentação. A documentação é escrita pra ser lida como
+um relato honesto do que de fato aconteceu, não uma lista de features
+polida depois do fato.
 
 ## Como isso parece de fora
 

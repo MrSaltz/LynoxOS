@@ -18,10 +18,9 @@ abertos são usados onde estiver explicitamente documentado (ver
 > código-fonte do kernel.** O kernel, os drivers e o código de userspace são
 > desenvolvidos num repositório privado enquanto o projeto ainda está em
 > desenvolvimento ativo e inicial. O que está aqui é real: o roadmap, a
-> metodologia, um changelog completo commit-a-commit do trabalho de
-> engenharia de verdade, e um conjunto de documentos de arquitetura que
-> explicam COMO e POR QUE cada subsistema funciona daquele jeito, sem
-> percorrer a implementação privada linha a linha. Ver
+> metodologia, e um conjunto de documentos de arquitetura que explicam
+> COMO e POR QUE cada subsistema funciona daquele jeito, sem percorrer a
+> implementação privada linha a linha. Ver
 > [Público vs. privado](#público-vs-privado) abaixo.
 
 ## Status
@@ -90,9 +89,9 @@ verificação → documentação. Verificação significa realmente RODAR o
 resultado (um boot headless no QEMU, checado por um marcador de sucesso/
 falha na saída serial, repetido várias vezes pra confirmar estabilidade),
 nunca só uma compilação bem-sucedida. Bugs encontrados no caminho ficam
-registrados honestamente no changelog e nos documentos de arquitetura —
-inclusive os que eram regressões auto-infligidas — em vez de corrigidos
-silenciosamente. Ver
+registrados honestamente nos documentos de arquitetura — inclusive os que
+eram regressões auto-infligidas — em vez de corrigidos silenciosamente.
+Ver
 [`design/coding-principles.md`](design/coding-principles.md) pro conjunto
 completo de regras norteadoras (sem abstração prematura, sem complexidade
 especulativa, exige um consumidor real antes de qualquer feature nova).
@@ -175,9 +174,9 @@ preocupação de segurança.
 ## Licença
 
 Ver [`LICENSE`](../../LICENSE). Ela cobre o conteúdo deste repositório
-(documentação, documentos de arquitetura, roadmap, changelog) — não
-concede nenhum direito sobre o código-fonte privado do kernel/SO Lynox,
-que não está incluído aqui.
+(documentação, documentos de arquitetura, roadmap) — não concede nenhum
+direito sobre o código-fonte privado do kernel/SO Lynox, que não está
+incluído aqui.
 
 "Lynox" é usado aqui só como o nome deste projeto. Não é reivindicado
 como marca registrada, e nenhuma afiliação com, ou endosso de, qualquer

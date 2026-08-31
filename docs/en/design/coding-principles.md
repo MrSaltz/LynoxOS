@@ -45,7 +45,7 @@ concrete example).
 
 ## No speculative complexity
 
-A recurring rule, referenced throughout the changelog as "no feature gets
+A recurring rule, phrased throughout the project as "no feature gets
 added because it would be cool": every new abstraction needs a concrete
 consumer or a real architectural need *at the time it's built*, not a
 hypothetical future one. When a design choice would only pay off for a
@@ -72,9 +72,9 @@ trade-off actually happening.
 
 Bugs found during verification — including ones that turned out to be
 self-inflicted regressions introduced earlier in the same session — are
-recorded in the changelog and architecture docs as real findings, with what
-caused them and how they were fixed, rather than silently patched and left
-undocumented. The changelog is written to be read as an honest account of
+recorded in the architecture docs as real findings, with what caused them
+and how they were fixed, rather than silently patched and left
+undocumented. Documentation is written to be read as an honest account of
 what actually happened, not a polished feature list after the fact.
 
 ## What this looks like from the outside

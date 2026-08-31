@@ -16,11 +16,11 @@ are used where explicitly documented (see
 > **This repository is the public engineering log of Lynox — not the kernel
 > source.** The kernel, drivers, and userspace code are developed in a
 > private repository while the project is still under active, early-stage
-> development. What's here is real: the roadmap, the methodology, a
-> commit-by-commit changelog of the actual engineering work, and a set of
-> architecture write-ups that explain *how* and *why* each subsystem works
-> the way it does, without walking through the private implementation line
-> by line. See [Public vs. private](#public-vs-private) below.
+> development. What's here is real: the roadmap, the methodology, and a
+> set of architecture write-ups that explain *how* and *why* each
+> subsystem works the way it does, without walking through the private
+> implementation line by line. See [Public vs. private](#public-vs-private)
+> below.
 
 ## Status
 
@@ -83,8 +83,8 @@ considered → justified decision → architecture → implementation →
 verification → documentation. Verification means actually *running* the
 result (a headless QEMU boot checked for a pass/fail marker on serial
 output, repeated multiple times for stability), never just a successful
-compile. Bugs found along the way are recorded honestly in the changelog and
-the architecture write-ups — including the ones that turned out to be
+compile. Bugs found along the way are recorded honestly in the
+architecture write-ups — including the ones that turned out to be
 self-inflicted regressions — instead of being silently patched away. See
 [`docs/en/design/coding-principles.md`](docs/en/design/coding-principles.md)
 for the full set of guiding rules (no premature abstraction, no speculative
@@ -147,9 +147,9 @@ concern.
 ## License
 
 See [`LICENSE`](LICENSE). It covers the content of this repository
-(documentation, architecture write-ups, roadmap, changelog) — it does not
-grant any rights to the private Lynox kernel/OS source code, which is not
-included here.
+(documentation, architecture write-ups, roadmap) — it does not grant any
+rights to the private Lynox kernel/OS source code, which is not included
+here.
 
 "Lynox" is used here only as this project's name. It is not asserted as a
 registered or claimed trademark, and no affiliation with, or endorsement

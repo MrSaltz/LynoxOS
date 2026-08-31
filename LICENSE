@@ -5,8 +5,8 @@ SCOPE — READ THIS FIRST
 
 This license applies ONLY to the content actually contained in this
 repository: documentation, architecture write-ups, the roadmap, the
-milestone checklist, the changelog, issue templates, and any other text,
-diagrams, or images published here.
+milestone checklist, issue templates, and any other text, diagrams, or
+images published here.
 
 This repository does NOT include the Lynox kernel, driver, or userspace
 source code. That source code lives in a separate, private repository and

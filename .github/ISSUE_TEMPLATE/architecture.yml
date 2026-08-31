@@ -7,11 +7,11 @@ body:
     attributes:
       value: |
         For questions about *why* Lynox works the way it does — a decision
-        recorded in `docs/decisions/`, a write-up in `docs/architecture/`,
-        or something in the changelog. This won't reveal private
-        implementation details, but it's a good place to ask "why not X
-        instead?" or point out something that seems inconsistent between
-        two documents.
+        recorded in `docs/en/decisions/`, or a write-up in
+        `docs/en/architecture/`. This won't reveal private implementation
+        details, but it's a good place to ask "why not X instead?" or
+        point out something that seems inconsistent between two
+        documents.
   - type: textarea
     id: question
     attributes:

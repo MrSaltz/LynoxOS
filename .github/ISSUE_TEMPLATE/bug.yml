@@ -1,5 +1,5 @@
 name: Documentation / demo issue
-description: Something in the docs, changelog, or a demo doesn't match, is broken, or is unclear.
+description: Something in the docs or a demo doesn't match, is broken, or is unclear.
 title: "[Docs]: "
 labels: ["documentation"]
 body:
@@ -8,9 +8,9 @@ body:
       value: |
         This repository doesn't contain the Lynox kernel source, so this
         isn't for a bug in the running system's code — it's for problems
-        with what's published *here*: a broken link, a claim in the docs
-        that contradicts the changelog, a screenshot/demo that doesn't
-        match its description, or similar.
+        with what's published *here*: a broken link, a claim in one doc
+        that contradicts another, a screenshot/demo that doesn't match
+        its description, or similar.
   - type: textarea
     id: what
     attributes:

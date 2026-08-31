@@ -17,9 +17,9 @@ point.
 
 Issues on this repository are open for:
 
-- **Documentation problems** — a broken link, a claim that contradicts the
-  changelog, a screenshot/demo that doesn't match its description. Use the
-  "Documentation / demo issue" template.
+- **Documentation problems** — a broken link, a claim in one doc that
+  contradicts another, a screenshot/demo that doesn't match its
+  description. Use the "Documentation / demo issue" template.
 - **Roadmap suggestions and questions** — something you think should be on
   the roadmap, or a question about a milestone's scope. Use the "Roadmap
   suggestion" template. Note: Lynox's own rule is that no feature gets added
