@@ -1,0 +1,27 @@
+name: Roadmap suggestion
+description: Suggest something for the Lynox roadmap, or ask about a milestone's scope.
+title: "[Suggestion]: "
+labels: ["suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Lynox's roadmap follows a deliberate rule: no feature is added
+        "because it'd be cool" — every milestone needs a concrete consumer
+        or architectural need (see `docs/en/design/coding-principles.md`). A
+        suggestion here is a starting point for discussion, not a
+        commitment that it'll be scheduled or accepted as-is.
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: What are you suggesting?
+      description: What would it let the system do, and why does it matter?
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Relevant context
+      description: Related milestone(s), prior art, or anything that helps evaluate it.
+    validations:
+      required: false

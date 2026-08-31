@@ -1,0 +1,21 @@
+name: Architecture question / discussion
+description: Ask about a design decision, an alternative that wasn't chosen, or a subsystem's write-up.
+title: "[Architecture]: "
+labels: ["architecture-discussion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        For questions about *why* Lynox works the way it does — a decision
+        recorded in `docs/decisions/`, a write-up in `docs/architecture/`,
+        or something in the changelog. This won't reveal private
+        implementation details, but it's a good place to ask "why not X
+        instead?" or point out something that seems inconsistent between
+        two documents.
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question or observation
+      description: Link to the specific doc/section if you can.
+    validations:
+      required: true
