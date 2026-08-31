@@ -1,0 +1,95 @@
+Lynox — Public Engineering Log
+License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+SCOPE — READ THIS FIRST
+
+This license applies ONLY to the content actually contained in this
+repository: documentation, architecture write-ups, the roadmap, the
+milestone checklist, the changelog, issue templates, and any other text,
+diagrams, or images published here.
+
+This repository does NOT include the Lynox kernel, driver, or userspace
+source code. That source code lives in a separate, private repository and
+is NOT licensed, published, or otherwise made available by this license or
+by anything in this repository. Nothing here grants any right, license, or
+permission — express or implied — to that private source code. Its
+existence being described or referenced in this documentation does not
+constitute publication or licensing of it.
+
+If a future version of the kernel/OS source code is published, it will
+carry its own, separately-stated license at that time — it should not be
+assumed to be CC BY 4.0, or any other specific license, in advance.
+
+PROJECT NAME
+
+"Lynox" is used throughout this repository only as this project's name. It
+is not asserted as a registered or claimed trademark, and no affiliation
+with, or endorsement by, any other product, company, or trademark of a
+similar name is intended or implied.
+
+---
+
+Creative Commons Attribution 4.0 International Public License
+
+By exercising the Licensed Rights (defined below), You accept and agree to
+be bound by the terms and conditions of this Creative Commons Attribution
+4.0 International Public License ("Public License"). To the extent this
+Public License may be interpreted as a contract, You are granted the
+Licensed Rights in consideration of Your acceptance of these terms and
+conditions, and the Licensor grants You such rights in consideration of
+benefits the Licensor receives from making the Licensed Material available
+under these terms and conditions.
+
+Section 1 — Definitions.
+
+a. Adapted Material means material subject to Copyright and Similar Rights
+   that is derived from or based upon the Licensed Material and in which
+   the Licensed Material is translated, altered, arranged, transformed, or
+   otherwise modified in a manner requiring permission under the Copyright
+   and Similar Rights held by the Licensor.
+b. Licensed Material means the documentation, text, diagrams, and other
+   material contained in this repository to which the Licensor applied
+   this Public License — expressly excluding any private source code not
+   contained in this repository.
+c. Licensor means the individual(s) or entity(ies) granting rights under
+   this Public License (the maintainer(s) of the Lynox project).
+
+Section 2 — Scope.
+
+a. License grant. Subject to the terms and conditions of this Public
+   License, the Licensor hereby grants You a worldwide, royalty-free,
+   non-sublicensable, non-exclusive, irrevocable license to exercise the
+   Licensed Rights in the Licensed Material to:
+   1. reproduce and share the Licensed Material, in whole or in part; and
+   2. produce, reproduce, and share Adapted Material.
+
+b. Attribution. If You share the Licensed Material (including in Adapted
+   Material), You must:
+   1. retain identification of the creator(s) of the Licensed Material and
+      a link to this repository (or its successor public location);
+   2. indicate if You modified the Licensed Material and retain an
+      indication of any previous modifications; and
+   3. indicate the Licensed Material is licensed under this Public
+      License, and include the text of, or the URI or hyperlink to, this
+      license.
+
+c. No additional restrictions. You may not offer or impose any additional
+   or different terms or conditions on, or apply any Effective Technological
+   Measures to, the Licensed Material that restrict exercise of the
+   Licensed Rights granted here.
+
+Section 3 — Disclaimer of Warranties and Limitation of Liability.
+
+Unless otherwise separately undertaken by the Licensor, to the extent
+possible, the Licensor offers the Licensed Material as-is and as-available,
+and makes no representations or warranties of any kind concerning the
+Licensed Material, whether express, implied, statutory, or other. In no
+event will the Licensor be liable to You on any legal theory for any
+direct, special, indirect, incidental, consequential, punitive, exemplary,
+or other losses, costs, expenses, or damages arising out of this Public
+License or use of the Licensed Material.
+
+The full legal text of CC BY 4.0 is available at:
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+Copyright (c) 2026 the Lynox project maintainer(s).
